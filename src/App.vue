@@ -22,7 +22,7 @@
     </v-navigation-drawer>
     <v-toolbar color="indigo" dark fixed app>
       <v-toolbar-side-icon @click.stop="drawer = !drawer">
-        </v-toolbar-sideicon>
+        </v-toolbar-side-icon>
         <v-toolbar-title>Home</v-toolbar-title>
     </v-toolbar>
     <v-content>
@@ -37,6 +37,8 @@
     </v-footer>
   </v-app>
 </template>
+
+
 <script>
 import './assets/stylesheets/main.css';
 export default {
