@@ -19,6 +19,8 @@ const createLintingRule = () => ({
   }
 })
 
+// Module exports section 
+
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
